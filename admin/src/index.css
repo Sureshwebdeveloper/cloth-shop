@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select,
+input,
+textarea {
+  border: 1px solid #c2c2c2;
+  outline-color: #c586a5;
+  border-radius: 4px;
+}
+
+a.active {
+  background: #ffebf5;
+  border-color: #c586a5;
+}
