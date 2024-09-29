@@ -57,7 +57,7 @@ const Orders = () => {
 
       <div>
       {
-        orderData.length <= 1 ? <div className="flex items-center justify-center h-[20vh]"> <p>No Orders Found Yet</p> </div> : 
+        orderData.length <= 0 ? <div className="flex items-center justify-center h-[20vh]"> <p>No Orders Found Yet</p> </div> : 
         <>
        {orderData.map((item, index) => (
           <div

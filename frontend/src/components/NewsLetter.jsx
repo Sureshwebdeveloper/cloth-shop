@@ -11,7 +11,7 @@ const NewsLetter = () => {
         Subscribe now & get 20% off
       </p>
       <p className="text-gray-400 mt-3">
-      fuga facere nisi nobis quis fuga facere nisi nobis ?
+      Stay connected with us via email to receive updates on upcoming offers and the best deals.
       </p>
       <form
         onSubmit={onSubmitHandler}
